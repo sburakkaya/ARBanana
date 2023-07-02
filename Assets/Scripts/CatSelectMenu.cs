@@ -28,6 +28,8 @@ public class CatSelectMenu : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        Application.targetFrameRate = 120;
     }
     
     private void Start()
